@@ -31,11 +31,13 @@ namespace WishList.Controllers
         public IActionResult Create(Item item)
         {
             RedirectToAction("Index");
+            return View();
         }
 
         public IActionResult Delete(int Id)
         {
             RedirectToAction("Index");
+            return View();
         }
     }
 
